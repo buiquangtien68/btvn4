@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F4F7FA;
+}
+/* Body */
+a{
+    text-decoration: none;
+}
+.list-courses{
+    width: 1036px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.tech-card{
+    width: 324px;
+    height: 345px;
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    margin-top: 5%;
+}
+.course-thumbnail img{
+    width: 324px;
+    height: 227px;
+    border-radius: 3%;
+}
+.course-info p{
+    margin-bottom: 5% ;
+    margin-left: 10%;
+    margin-right: 10% ;
+    margin-top: 5%;
+}
+.course-title{
+    font-size: 20px;
+    color:#464646
+}
+.course-description{
+    color: #757575;
+}
+/* Footer */
+.container-footer{
+    width: 100%;
+    height: 412px;
+    background-color: #30598C;
+    margin-top: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    line-height: 50px;
+}
+.row{
+    margin-top: 30px;
+    height: 412px;
+}
+li a{
+    color: #FFFFFF;
+}
